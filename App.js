@@ -11,6 +11,8 @@ export default function App() {
   const [currentSubject, setCurrentSubject] = useState();
   const [history, setHistory] = useState([]);
 
+  console.log('Github');
+
   return (
     <SafeAreaView style={styles.container}>
       {!currentSubject ? 
